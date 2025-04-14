@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<title>EE Company</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mobile.css">
+	</head>
+	<body>
+		<!-- SESSÃO DE NAVBAR-->
+		<nav>
+			<div class="navbar">
+				<i class="bx bx-menu"></i>
+				<div class="logo"><a href="#">EE Company</a></div>
+
+				<div class="nav-links">
+					<div class="sidebar-logo">
+						<span class="logo_name">EE Company.</span>
+						<i class='bx bx-x'></i>
+					</div>
+					<ul class="links">
+						<li><a href="#">Home</a></li>
+						<li>
+							<a href="#">Produtos</a>
+							<i class='bx bx-chevron-down arrow produtos-arrow'></i>
+							<ul class="produtos-sub-menu sub-menu">
+								<li class="roupas">
+									<a href="#">Roupas</a>
+									<i class='bx bx-chevron-right arrow roupas-arrow'></i>
+									<ul class="roupas-sub-menu sub-menu">
+										<li><a href="#">Femininas</a></li>
+										<li><a href="#">Masculinas</a></li>
+										<li><a href="#">Infantil</a></li>
+										<li><a href="#">Plus-Size</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Tênis</a></li>
+								<li class="artigos">
+									<a href="#">Artigos Esportivos</a>
+									<i class='bx bx-chevron-right arrow artigos-arrow'></i>
+									<ul class="artigos-sub-menu sub-menu">
+										<li><a href="#">Futebol</a></li>
+										<li><a href="#">Basquete</a></li>
+										<li><a href="#">Vôlei</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">Serviços</a>
+							<i class='bx bx-chevron-down arrow servicos-arrow'></i>
+							<ul class="servicos-sub-menu sub-menu">
+								<li><a href="#">Entregas</a></li>
+								<li><a href="#">Artigos Personalizados</a></li>
+								<li class="parcerias">
+									<a href="#">Parcerias</a>
+									<i class='bx bx-chevron-right arrow parcerias-arrow'></i>
+									<ul class="parcerias-sub-menu sub-menu">
+										<li><a href="#">Nossos Parceiros</a></li>
+										<li><a href="#">Quero ser Parceiro</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Consumidor</a></li>
+							</ul> 
+						</li>
+						<li><a href="#">Sobre Nós</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contatos</a></li>
+					</ul>
+				</div> 
+				<div class="search-box">
+					<i class='bx bx-search'></i>
+					<div class="input-box">
+						<input type="text" placeholder="Busque Aqui">
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<!-- SESSÃO DE CAROUSEL-->
+		<div class="container-slider">
+			<button id="prev-button"><img src="imagens/arrow.png" alt="prev-button"></button>
+			<div class="container-imagens">
+				<img src="imagens/banner1.png" alt="imagem1" class="slider on">
+				<img src="imagens/banner2.png" alt="imagem2" class="slider">
+				<img src="imagens/banner3.png" alt="imagem3" class="slider">
+				<img src="imagens/banner4.png" alt="imagem4" class="slider">
+				<img src="imagens/banner5.png" alt="imagem5" class="slider">
+			</div>
+			<button id="next-button"><img src="imagens/arrow.png" alt="next-button"></button>
+		</div>
+
+		<!-- SESSÃO DE PRODUTOS MAIS VENDIDOS-->
+		<section id="produtos">
+			<div class="produtos">
+				<h2>Produtos mais vendidos</h2>
+			</div>
+			<div class="container-produtos">
+				<div class="white-box">
+					<div class="items">
+						<div class="item">
+							<div class="product">
+								<img src="imagens/produto1.png">
+							</div>
+							<h3>TN Black and White</h3>
+							<span>R$ 999,99</span>
+							<button type="button">Comprar</button>
+						</div>
+						<div class="item">
+							<div class="product">
+								<img src="imagens/produto2.png">
+							</div>
+							<h3>TN Black</h3>
+							<span>R$ 999,99</span>
+							<button type="button">Comprar</button>
+						</div>
+						<div class="item">
+							<div class="product sale">
+								<img src="imagens/produto3.png">
+								<div class="sell">Promoção</div>
+							</div>
+							<h3>Adidas Forum Low</h3>
+							<span><s>R$ 499,99</s>R$ 399,99</span>
+							<button type="button">Comprar</button>
+						</div>
+						<div class="item">
+							<div class="product">
+								<img src="imagens/produto4.png">
+							</div>
+							<h3>Camisa Reserva Milan</h3>
+							<span>R$ 219,99</span>
+							<button type="button">Comprar</button>
+						</div>
+						<div class="item">
+							<div class="product">
+								<img src="imagens/produto5.png">
+							</div>
+							<h3>Camisa Titular Arsenal</h3>
+							<span>R$ 299,99</span>
+							<button type="button">Comprar</button>
+						</div>
+						<div class="item">
+							<div class="product">
+								<img src="imagens/produto6.png">
+							</div>
+							<h3>Camisa Reserva Bragantino</h3>
+							<span>R$ 299,99</span>
+							<button type="button">Comprar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<!-- Sessão de esportes -->
+		<section id="esportes">
+			<div class="grid-gallery">
+				<div class="grid-item">
+					<a href="imagens/download (2).jfif">
+						<img src="imagens/download (2).jfif">
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="imagens/download (1).jfif">
+						<img src="imagens/download (1).jfif">
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="imagens/download (4).jfif">
+						<img src="imagens/download (4).jfif">
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="imagens/download (3).jfif">
+						<img src="imagens/download (3).jfif">
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="imagens/download (5).jfif">
+						<img src="imagens/download (5).jfif">
+					</a>
+				</div>
+				<div class="grid-item">
+					<a href="imagens/download (6).jfif">
+						<img src="imagens/download (6).jfif">
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!-- SESSÃO DO FOOTER -->
+		<footer>
+			<div class="footer_info">
+				<div class="footer_width about">
+					<h2>Sobre</h2>
+					<p>
+						Desde nossa fundação, temos um único objetivo: oferecer aos nossos clientes produtos de qualidade, com atendimento diferenciado e paixão pelo esporte. 
+						Aqui, você encontra tudo o que precisa para praticar sua atividade favorita. Trabalhamos com as principais marcas do mercado e buscamos sempre as últimas 
+						novidades. Nosso compromisso vai além da venda: queremos inspirar uma vida mais ativa, saudável e cheia de conquistas.
+					</p>
+					<div class="social-media">
+						<ul>
+							<li><a href="#"><i class='bx bxl-facebook-circle' ></i></a></li>
+							<li><a href="#"><i class='bx bxl-tiktok'></i></a></li>
+							<li><a href="#"><i class='bx bxl-instagram'></i>	</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_width link">
+					<h2>Links</h2>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Produtos</a></li>
+						<li><a href="#">Serviços</a></li>
+						<li><a href="#">Sobre Nós</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contato</a></li>
+					</ul>
+				</div>
+				<div class="footer_width contact">
+					<h2>Contato</h2>
+					<ul>
+						<li>
+							<span><i class='bx bx-map'></i></span>
+							<p>R. Cel. Xavier de Toledo, 23 - República, São Paulo - SP, 01048-000</p>
+						</li>
+						<li>
+							<span><i class='bx bx-envelope'></i></span>
+							<a href="#">eecompany@gmail.com</a>
+						</li>
+						<li>
+							<span><i class='bx bxs-phone-call'></i></span>
+							<a href="#">(11)90200-0644</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="copy-rigth">
+				<p>© COPYRIGHT 2025 DANIEL BORAZO DE MOURA</p>
+			</div>
+		</footer>
+		<script src="js/script.js" defer></script>
+	</body>
+</html>

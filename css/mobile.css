@@ -1,0 +1,213 @@
+@media (max-width:954px) {
+    nav .navbar {
+        max-width: 100%;
+        padding: 0 25px;
+    }
+
+    nav .navbar .logo a {
+        font-size: 26px;
+    }
+
+    nav .navbar .nav-links .links li {
+        padding: 0 10px;
+    }
+
+    nav .navbar .nav-links .links li a {
+        font-size: 15px;
+    }
+
+    .container-slider {
+        min-height: 88vh;
+    }
+
+    .about,
+    .contact {
+        width: 35%;
+    }
+
+    .link {
+        width: 30%;
+    }
+}
+
+@media (max-width:800px) {
+    nav .navbar .nav-links {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        max-width: 270px;
+        width: 100%;
+        background-color: #e8c39e;
+        padding: 20px;
+        line-height: 40px;
+        transition: all 0.5s ease;
+        z-index: 100;
+    }
+
+    nav .navbar .nav-links .sidebar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar .bx-menu,
+    .nav-links .sidebar-logo .logo_name,
+    .nav-links .sidebar-logo .bx-x {
+        color: #fafafa;
+        font-size: 25px;
+        font-weight: 500;
+        display: block;
+    }
+
+    nav .navbar .nav-links .links {
+        display: block;
+        margin-top: 20px;
+    }
+
+    nav .navbar .nav-links .links li {
+        display: block;
+    }
+
+    .navbar .nav-links .links .sub-menu {
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: none;
+    }
+
+    .navbar .nav-links .links .sub-menu li {
+        border-bottom: none;
+    }
+
+    .navbar .nav-links .links li:hover .produtos-sub-menu,
+    .navbar .nav-links .links li:hover .servicos-sub-menu {
+        display: none;
+    }
+
+    .navbar .nav-links .links .roupas:hover .roupas-sub-menu,
+    .navbar .nav-links .links .artigos:hover .artigos-sub-menu,
+    .navbar .nav-links .links .parcerias:hover .parcerias-sub-menu {
+        display: none;
+    }
+
+    nav .navbar .nav-links .links li .arrow {
+        line-height: 40px;
+    }
+
+    .navbar .nav-links .links li:hover .produtos-arrow,
+    .navbar .nav-links .links li:hover .servicos-arrow {
+        transform: rotate(0deg);
+    }
+
+    .navbar .nav-links.show1 .links .sub-menu.produtos-sub-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.show2 .links .roupas .roupas-sub-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.show2 .links .sub-menu .roupas-arrow {
+        transform: rotate(90deg);
+    }
+
+    .navbar .nav-links.show3 .links .artigos .artigos-sub-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.show3 .links .sub-menu .artigos-arrow {
+        transform: rotate(90deg);
+    }
+
+    .navbar .nav-links.show4 .links .sub-menu.servicos-sub-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.show5 .links .parcerias .parcerias-sub-menu {
+        display: block;
+    }
+
+    .navbar .nav-links.show5 .links .sub-menu .parcerias-arrow {
+        transform: rotate(90deg);
+    }
+
+    .navbar .nav-links.show1 .links li .produtos-arrow,
+    .navbar .nav-links.show4 .links li .servicos-arrow {
+        transform: rotate(180deg);
+    }
+
+    .container-slider {
+        min-height: 80vh;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about,
+    .contact,
+    .link {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer_info {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:650px) {
+    .container-slider {
+        min-height: 68vh;
+    }
+
+    #prev-button,
+    #next-button {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .container-slider {
+        min-height: 56vh;
+    }
+
+    .items {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-gallery {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+        padding: 30px 10px;
+    }
+}
+
+@media (max-width:370px) {
+    nav .navbar .nav-links {
+        max-width: 100%;
+    }
+
+    .container-slider {
+        min-height: 48vh;
+    }
+
+    .grid-gallery {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+        padding: 20px 8px;
+        gap: 15px;
+    }
+
+    .grid-gallery .grid-item:nth-child(3n - 2) {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .grid-gallery .grid-item img {
+        height: 100%;
+    }
+}
