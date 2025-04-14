@@ -32,7 +32,7 @@ O projeto pode ser acessado por este link: <br>
 Para clonar o repositório, execute o seguinte comando:
 
 ```bash
-git clone https://github.com/DanielBMoura/Agencia-de-viagens.git
+git clone https://github.com/DanielBMoura/EE-Company.git
 ```
 
 ## Considerações finais 📝
