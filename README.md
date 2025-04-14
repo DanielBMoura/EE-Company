@@ -21,9 +21,9 @@ O projeto pode ser acessado por este link: <br>
 
 **CSS**: Utilizado para estilizar os elementos da página, garantindo um visual atrativo e responsivo.  
 
-**Javascript**: Aplicado para adicionar interatividade à página, como as animações e funcionalidades dinâmicas.  
+**Javascript**: Implementado para criar interatividade, como o carrossel de produtos e a funcionalidade de lupa para facilitar a navegação.  
 
-**Scrollreveal**: Biblioteca usada para criar animações suaves de entrada.  
+**Boxicons**: Biblioteca de ícones utilizada para enriquecer a interface, oferecendo uma ampla variedade de ícones que são facilmente customizáveis.
 
 **Vercel**: Plataforma utilizada para fazer o deploy e deixar a aplicação online.
 
