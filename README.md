@@ -1,12 +1,12 @@
 <div align="center">
-<h1 align="center">  Agência de Viagens ✈️ </h1>
+<h1 align="center">  EE-Company ⚽ </h1>
 
 ## Sobre o projeto 🔍
 
 <p align="center">
-Este projeto é uma landing page responsiva desenvolvida para uma agência de viagens fictícia. A página tem como objetivo apresentar os serviços oferecidos. <br>
-📡 O projeto pode ser acessado por este link: <br>
-👉 https://agencia-de-viagens-hazel-seven.vercel.app/
+Este projeto é uma interface responsiva de um e-commerce fictício especializado na venda de artigos esportivos. O principal objetivo da página é exibir os produtos de forma clara e atrativa, permitindo que os clientes visualizem os produtos e seus preços. <br>
+O projeto pode ser acessado por este link: <br>
+👉 https://ee-company.vercel.app/
 </p>
 
 ## Funcionalidades ✨
